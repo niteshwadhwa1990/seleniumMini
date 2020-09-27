@@ -1,7 +1,7 @@
 public class constants {
 
-	String chromeDriverPath = "C:\\\\Users\\Nitesh Wadhwa\\Desktop\\Nitesh\\Selenium Java\\chromeDriver\\chromedriver.exe";
-	String firefoxDriverPath = "C:\\\\Users\\Nitesh Wadhwa\\Desktop\\Nitesh\\Selenium Java\\firefoxDriver\\firefoxDriver.exe";
+	String chromeDriverPath = "./BrowserDriver/chromedriver.exe";
+	String firefoxDriverPath = "./BrowserDriver/geckodriver.exe";
 	static String testURL = "http://automationpractice.com/index.php";
 	String signInLinkText = "Sign in";
 	String emailXpath = "//div/input[@data-validate='isEmail']";
